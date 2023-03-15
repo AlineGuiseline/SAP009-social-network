@@ -25,7 +25,7 @@ export default () => {
   </form>
 </div>
 `;
- 
+
   container.innerHTML = template;
 
   const registerButton = container.querySelector('#register-btn');
@@ -36,7 +36,18 @@ export default () => {
     const email = registerEmail.value;
     const password = registerPassword.value;
 
-    createUserWithEmail(email, password);
+    createUserWithEmail(email, password)
+      .then((isCreated) => {
+        console.log('Usuário cadastrado - register');
+        window.location.replace('#timeline');
+      })
+      .catch((error) => {
+        console.log('Erro de cadastro');
+        window.location.replace('#register');
+      })
+      .finally(() => {
+        console.log('Cadastro autenticado no register');
+      });
   });
 
   return container;
