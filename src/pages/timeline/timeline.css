@@ -46,11 +46,10 @@ nav > ul > li > a {
     border-radius: .5rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 700px) {
     .black-bg {
         background-color: rgba(0, 9, 14, 0.9);
         margin: 2% 20% 2% 20%;
-        /* margin: 1rem 20rem 1rem 20rem; */
         height: 100%;
     }
 }

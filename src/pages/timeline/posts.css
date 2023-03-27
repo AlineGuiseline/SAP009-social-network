@@ -1,9 +1,10 @@
-
 #open-modal {
     background-color: #38EB8D;
     text-align: center;
     font-weight: bold;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
 }
 
 #close-modal {
@@ -35,6 +36,7 @@ button:hover {
     max-width: 90%;
     padding: 1.2rem;
     border-radius: .5rem;
+    border: solid 0.2rem #00B154;
 }
 
 .modal-header {
@@ -42,10 +44,6 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     margin-bottom: -2rem;
-}
-
-.modal-body {
-    margin-bottom: 1rem;
 }
 
 .modal-form {
@@ -93,7 +91,7 @@ div.single-input .input:valid ~ label {
 
 #post-area {
     width: 500px;
-    height: 250px;
+    height: 200px;
     max-width: 100%;
     text-align: left;
     border-radius: 1rem;
@@ -126,4 +124,23 @@ div.single-input .input:valid ~ label {
 
 #post-button:active {
     opacity: 0.8;
+}
+
+@media screen and (min-width: 700px) {
+     #modal {
+        width: 54%;
+        height: 70%;
+    }
+
+    #post-area {
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #open-modal {
+        width: 50%;
+    } 
 }
