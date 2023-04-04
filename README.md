@@ -2,6 +2,8 @@
  
 Gosta de animes e gostaria de receber algumas recomendações só com as informações essenciais? Fica desconfiada(o/e) quando vê algum influenciador ou blogueiro falando sobre algum anime, porque você não tem certeza se essa pessoa está sendo patrocinada ou não? Você também fica completamente perdida(o/e) quando vê que, só nessa temporada, foram lançados 2 milhões de animes e você não faz ideia do que as pessoas estão achando deles? Então Anime-se, porque o nosso terceiro projeto criado junto ao bootcamp da Laboratória foi feito para você!
 
+🔗 [Clique aqui para acessar](https://social-network-5b156.web.app/)
+
 ## Índice
 
 * [1. Resumo do projeto](#1-resumo-do-projeto)
@@ -255,15 +257,21 @@ Na página de cadastro, abaixo dos campos para inserir o e-mail e a senha nós c
 ## 8. Considerações técnicas
 
 Linguagens utilizadas: JavaScript | HTML5 | CSS3
+
 Programas/Plataformas utilizadas: VSCode (codificação) | Firebase (registro de novas contas e autenticação de usuários) | Firestore (criação, exibição, edição e exclusão de posts) | Canva (protótipo de baixa fidelidade e imagem com a paleta de cores) | Vite (ferramenta de compilação) | Figma (protótipo de alta fidelidade) | Trello (planejamento)
 
 ## 9. Objetivos alcançados
 
 ✨ Desenvolvimento de uma plataforma que permita ao usuário registrar uma nova conta, logar em uma conta já existente (com e-mail e senha informados ou através da conta do Google), criar, editar, excluir, curtir e descurtir posts.
+
 ✨ Criação de histórias de usuário e construção do site de acordo com estas histórias
+
 ✨ Desenvolvimento do projeto de acordo com os testes de usabilidade realizados com usuários reais
+
 ✨ Cobertura de 100% nos testes unitários
+
 ✨ Páginas 100% responsivas
+
 ✨ Criação e validação de testes unitários para as funções criadas no código
 
 ## 10. Contatos
@@ -271,9 +279,11 @@ Programas/Plataformas utilizadas: VSCode (codificação) | Firebase (registro de
 **Aline Guiseline** 💙
 
 https://www.linkedin.com/in/alineguiseline/
+
 https://github.com/AlineGuiseline/
 
 **Bruna Abreu** 💙
 
 https://www.linkedin.com/in/bru-abreu/
+
 https://github.com/bruna-abreu
